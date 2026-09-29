@@ -2,7 +2,7 @@
 Static site, no dependencies. Edit `build.py` (CONFIG + content) then run `python3 build.py` to regenerate HTML, sitemap.xml, robots.txt and check links.
 
 ## Add your assets
-- Fonts (Fontshare, free to download): put `Panchang-Variable.woff2`, `Sentient-Variable.woff2`, `Sentient-VariableItalic.woff2` in `assets/fonts/`. If your filenames differ, edit the 3 `@font-face` lines in `css/styles.css`.
+- Fonts (Fontshare, free): Panchang (headings) and Author (body) are already in `assets/fonts/` with their licences. To swap one, replace the woff2 file and edit the `@font-face` lines in `css/styles.css`.
 - Images: every box shows the exact filename and size to use (e.g. `assets/img/hero.jpg`, 1200x1500). Also add `assets/img/og-image.jpg` (1200x630) for social previews.
 - Compress before upload: export WebP/JPG at 2x display size, target < 200 KB each (squoosh.app or `cwebp -q 80`). Keep filenames or update them in `build.py`.
 

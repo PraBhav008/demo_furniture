@@ -37,7 +37,7 @@ def page(file, title, desc, body, noindex=False, first_img=""):
 <meta property="og:image" content="{CONFIG["url"]}/assets/img/og-image.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/Panchang-Variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/Sentient-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Author-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/styles.css">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
@@ -78,7 +78,7 @@ pages["index.html"] = ("Handmade objects for considered living", f"{B} makes han
 <div class="hero-copy"><h1>Objects made slowly, kept for life.</h1>
 <p class="lead">{B} is a small studio making stoneware, linen, wool and brass for homes that value craft over volume.</p>
 <div class="actions">{cta()}{link("collections.html","See the collections")}</div></div>
-{img("hero.jpg","A styled table setting with green stoneware and brass","arch",1200,1500,"hero-img")}
+<figure class="ph arch hero-img"><video autoplay muted loop playsinline preload="auto" poster="assets/img/hero.jpg" width="1200" height="1500" aria-label="A styled table setting with green stoneware and brass"><source src="assets/video/hero.webm" type="video/webm"><source src="assets/video/hero.mp4" type="video/mp4"></video></figure>
 </div></section>
 <section class="sec cream"><div class="wrap split">
 <h2>A studio, not a factory.</h2>
